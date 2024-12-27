@@ -1,0 +1,10 @@
+package com.SpringFramework.learn_springboot;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Dev {
+    public void code() {
+        System.out.println("Coding in Spring Boot!");
+    }
+}
