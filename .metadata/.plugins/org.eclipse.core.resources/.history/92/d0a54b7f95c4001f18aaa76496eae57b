@@ -1,0 +1,7 @@
+package com.SpringFramework.learn_springframework;
+
+public class Dev {
+	public void build() {
+		System.out.println("Building Project");
+	}
+}
