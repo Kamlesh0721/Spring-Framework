@@ -3,6 +3,12 @@ package com.SpringFramework.learn_springframework;
 public class Dev {
 	String name;
 	int age;
+	Computer comp;
+
+	public Dev(Computer comp) {
+		super();
+		this.comp = comp;
+	}
 
 	public Dev() {
 	}
@@ -17,6 +23,14 @@ public class Dev {
 		super();
 		this.name = name;
 		this.age = age;
+	}
+
+	public Computer getComputer() {
+		return comp;
+	}
+
+	public void setComputer(Computer comp) {
+		this.comp = comp;
 	}
 
 	public String getName() {
@@ -36,6 +50,7 @@ public class Dev {
 	}
 
 	public void build() {
+		comp.compile();
 		System.out.println("Building Project");
 	}
 
