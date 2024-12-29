@@ -25,15 +25,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.SpringFramework.learn_springboot"/>
-			<item value="com.SpringFramework.learnSpringBoot"/>
 		</list>
 		<list key="groupId">
-			<item value="com.SpringFramework"/>
 		</list>
 		<list key="artifactId">
-			<item value="learn_springboot"/>
-			<item value="learnSpringBoot"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
